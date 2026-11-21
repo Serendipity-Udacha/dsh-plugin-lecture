@@ -149,5 +149,5 @@ node smoke.mjs "$env:TEMP\clip.wav" transcribe  # 连转写一起验
 
 ## License
 
-MIT。仓库地址已填好（`https://github.com/xjj524/dsh-plugin-lecture`），换成你自己的 fork 时记得同步
+MIT。仓库地址已填好（`https://github.com/Serendipity-Udacha/dsh-plugin-lecture`），换成你自己的 fork 时记得同步
 改 `package.json` 里的三处 URL。

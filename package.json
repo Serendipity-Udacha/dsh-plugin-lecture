@@ -35,11 +35,11 @@
   "author": "dsh-plugin-lecture contributors",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xjj524/dsh-plugin-lecture.git"
+    "url": "git+https://github.com/Serendipity-Udacha/dsh-plugin-lecture.git"
   },
-  "homepage": "https://github.com/xjj524/dsh-plugin-lecture#readme",
+  "homepage": "https://github.com/Serendipity-Udacha/dsh-plugin-lecture#readme",
   "bugs": {
-    "url": "https://github.com/xjj524/dsh-plugin-lecture/issues"
+    "url": "https://github.com/Serendipity-Udacha/dsh-plugin-lecture/issues"
   },
   "engines": {
     "node": ">=20"
