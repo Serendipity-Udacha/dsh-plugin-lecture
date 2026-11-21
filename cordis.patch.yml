@@ -1,0 +1,7 @@
+# dsh-plugin-lecture bundle patch.
+# 只贡献一行：lecture-asr（离线逐字稿工具 lecture_probe / lecture_transcribe / lecture_status）。
+# 模型与依赖不在本包内，放在 LECTURE_HOME（默认 ~/.dsh/lecture），换项目不用重下。
+
+- insert:
+    - id: lecture-asr
+      name: 'dsh-plugin-lecture'

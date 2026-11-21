@@ -1,0 +1,51 @@
+{
+  "name": "dsh-plugin-lecture",
+  "version": "0.1.0",
+  "description": "Offline lecture/video transcription for DeepSeek Harness: faster-whisper on CPU, resumable, transcript + srt",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "files": [
+    "lib/index.js",
+    "lecture_cli.py",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "asr",
+    "whisper",
+    "faster-whisper",
+    "transcript",
+    "subtitle",
+    "lecture"
+  ],
+  "license": "MIT",
+  "author": "dsh-plugin-lecture contributors",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OWNER/dsh-plugin-lecture.git"
+  },
+  "homepage": "https://github.com/OWNER/dsh-plugin-lecture#readme",
+  "bugs": {
+    "url": "https://github.com/OWNER/dsh-plugin-lecture/issues"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "~4.1.0",
+    "@deepseek-ai/dsh-tools": "^0.2.2-rc.1"
+  }
+}

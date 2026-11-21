@@ -1,0 +1,35 @@
+# 依赖与构建产物
+node_modules/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# 模型 / wheel 缓存 / 下载残留（都应在 LECTURE_HOME 里）
+models/
+pylibs/
+downloads/
+*.part
+*.bin.p[0-9]*
+*.wav
+*.mp4
+*.mkv
+*.mp3
+
+# 运行产物
+lecture_out/
+progress.json
+segs/
+worker-*.log
+
+# 本地环境
+.env
+.env.*
+venv/
+.venv/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
